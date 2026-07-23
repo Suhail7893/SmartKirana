@@ -197,7 +197,7 @@ export const Reports: React.FC = () => {
               <BarChart data={productProfitData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.03)" vertical={false} />
                 <XAxis dataKey="name" stroke="var(--color-text-muted)" fontSize={9} tickLine={false} />
-                <YAxis stroke="var(--color-text-muted)" fontSize={11} tickLine={false} suffix="%" />
+                <YAxis stroke="var(--color-text-muted)" fontSize={11} tickLine={false} tickFormatter={(value) => `${value}%`}/>
                 <Tooltip 
                   contentStyle={{ 
                     background: 'var(--bg-surface)', 

@@ -1,0 +1,34 @@
+# Node
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# SQLite Databases (you don't want to push your local database with data)
+*.db
+*.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
