@@ -1,13 +1,10 @@
 import React, { useMemo, useState } from 'react';
 import { useApp } from '../context/AppContext';
-import { 
-  Download, 
-  BarChart3, 
-  TrendingUp, 
-  FileSpreadsheet, 
-  FileText, 
-  TableProperties,
-  ArrowRight
+import {
+  Download,
+  FileSpreadsheet,
+  FileText,
+  TableProperties
 } from 'lucide-react';
 import { 
   ResponsiveContainer, 
