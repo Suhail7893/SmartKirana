@@ -7,14 +7,13 @@ import {
   Edit, 
   Trash2, 
   Filter, 
-  Tag, 
   Package, 
   Barcode, 
   AlertTriangle 
 } from 'lucide-react';
 
 export const Products: React.FC = () => {
-  const { products, addProduct, updateProduct, deleteProduct, currentUser } = useApp();
+  const { products, addProduct, updateProduct, deleteProduct } = useApp();
   
   // Search & Filter State
   const [searchTerm, setSearchTerm] = useState('');

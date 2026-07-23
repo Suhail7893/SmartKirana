@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useApp } from '../context/AppContext';
-import { ShoppingCart, Shield, User as UserIcon, Lock, Mail } from 'lucide-react';
+import { ShoppingCart, User as UserIcon, Lock, Mail } from 'lucide-react';
 
 export const Login: React.FC = () => {
   const { login, signup, showToast } = useApp();

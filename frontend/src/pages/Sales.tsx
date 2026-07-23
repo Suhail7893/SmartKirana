@@ -8,8 +8,7 @@ import {
   Plus, 
   Minus, 
   Receipt,
-  CheckCircle2,
-  AlertTriangle
+  CheckCircle2
 } from 'lucide-react';
 
 interface CartItem {
